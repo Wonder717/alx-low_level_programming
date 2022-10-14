@@ -8,7 +8,7 @@
  *
  * Return: Always (Success)
  */
-int main(void) //67
+int main(void) 
 {
 	int n, lastd;
 
