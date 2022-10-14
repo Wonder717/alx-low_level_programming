@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
  * main - Entry point
  *
@@ -9,20 +7,16 @@
  */
 int main(void)
 {
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
 
-	char acharacter;
-	int anintenger;
-	long along;
-	long long alongalong;
-	float afloat;
-
-
-	printf("Size of a char: %lu byte(s)\n", sizeof(acharacter));
-        printf("Size of an int: %lu byte(s)\n", sizeof(aninteger));
-	printf("Size of a long int: %lu byte(s)\n", sizeof(along));
-	printf("Size of a long long int: %lu byte(s)\n" sizeof(alongalong));
-	printf("Size of a float: %lu byte(s)\n", sizeof(afloat);
-
-
-	return (o);
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	return (0);
 }
