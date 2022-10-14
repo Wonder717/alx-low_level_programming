@@ -1,24 +1,18 @@
 #include <stdio.h>
-
 /**
-* main - Lanzador.
+*main - Displays the alphabets.
 *
-* Return: Always 0.
+*Return: 0 Always (Success)
 */
-
 int main(void)
 {
-	char a = 'a';
-	char b = 'A';
+char alx[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int i;
 
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		putchar(a);
-	}
-	for (b = 'A'; b <= 'Z'; b++)
-	{
-		putchar(b);
-	}
-	putchar('\n');
-	return (0);
+for (i = 0; i < 52; i++)
+{
+putchar(alx[i]);
+}
+putchar('\n');
+return (0);
 }
