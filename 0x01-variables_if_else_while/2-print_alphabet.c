@@ -1,19 +1,18 @@
 #include <stdio.h>
-
 /**
-* main - Lanzador.
-*
-* Return: Always 0.
-*/
-
+ *main - Displays the alphabet.
+ *
+ *Return: 0 always (Success)
+ */
 int main(void)
 {
-	char a = 'a';
+char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
 
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		putchar(a);
-	}
-	putchar('\n');
-	return (0);
+for (i = 0; i < 26; i++)
+{
+putchar(alp[i]);
+}
+putchar('\n');
+return (0);
 }
