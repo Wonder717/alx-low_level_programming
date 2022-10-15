@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints a text according to number
+ * main - Prints the last digit of a number
  *
  * Return: Always (Success)
  */
