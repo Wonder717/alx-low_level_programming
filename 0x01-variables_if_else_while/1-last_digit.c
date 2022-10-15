@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
-*main - This is to  determine whether greater than 5,  less than 6, or is 0
+*main - This is to determine whether greater than 5, less than 6, or is 0
 *
 *Return: 0 always (Success)
 */
