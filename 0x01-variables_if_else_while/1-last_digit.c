@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
-i**
+/**
 *main - Prints the last digit of random number
 *
 *Return: 0 always (Success)
