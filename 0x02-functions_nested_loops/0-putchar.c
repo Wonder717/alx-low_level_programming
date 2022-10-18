@@ -21,7 +21,7 @@
 	 _putchar('t');
 	 _putchar('o');
 	 _putchar('r');
-	 _putchar('n');
+	 _ptchar('n');
 	 _putchar('\n');
 	 return (o);
 
