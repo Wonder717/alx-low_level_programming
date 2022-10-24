@@ -1,1 +1,1 @@
-Using pointers,arrays and strings in C programming
+Using pointers,arrays and strings in a C program
