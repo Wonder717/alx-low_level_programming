@@ -1,1 +1,1 @@
-functions and pointers in C
+functions and pointers in C Programming
